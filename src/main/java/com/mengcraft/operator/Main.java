@@ -22,6 +22,11 @@ public class Main extends JavaPlugin implements Listener {
 	@Override
 	public void onEnable() {
 		getServer().getPluginManager().registerEvents(this, this);
+		String[] strings = {
+                ChatColor.GREEN + "梦梦家高性能服务器出租店",
+                ChatColor.GREEN + "shop105595113.taobao.com"
+        };
+        getServer().getConsoleSender().sendMessage(strings);
 	}
 
 	@EventHandler
