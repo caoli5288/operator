@@ -1,0 +1,8 @@
+name: Operator
+main: com.mengcraft.operator.Main
+version: 0.1
+
+commands:
+  operator:
+    description: Operator command for this plugin.
+    aliases: [getop]
