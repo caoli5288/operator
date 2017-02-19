@@ -1,6 +1,6 @@
 name: Operator
 main: com.mengcraft.operator.Main
-version: 0.1
+version: ${project.version}
 
 commands:
   operator:
